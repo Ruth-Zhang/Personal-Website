@@ -1,6 +1,6 @@
 :root{
-    --color-accent: rgb(123, 134, 255);
-    --color-highlight: rgb(120, 0, 185);
+    --color-accent: rgb(170, 161, 200);
+    --color-highlight: black;
 
 }
 
@@ -24,8 +24,8 @@ header {
 }
 
 body {
-    background-color: aliceblue;
-    color:black;
+    background-color: rgb(245, 240, 246);
+    color: rgb(25, 42, 81);
     padding: 4rem 1rem;
     display:grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -88,7 +88,7 @@ section{
     content:'';
     position: absolute;
     inset: 0;
-    background: rgb(229, 216, 255);
+    background: rgb(208, 198, 224);
     border-radius: 0.5rem;
 }
 
