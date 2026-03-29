@@ -24,8 +24,8 @@ header {
 }
 
 body {
-    background-color: rgb(245, 240, 246);
-    color: rgb(25, 42, 81);
+    background-color: rgb(248, 246, 237);
+    color: rgb(19, 49, 117);
     padding: 4rem 1rem;
     display:grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
