@@ -24,7 +24,7 @@ header {
 }
 
 body {
-    background-color: rgb(248, 246, 237);
+    background-color: white;
     color: rgb(19, 49, 117);
     padding: 4rem 1rem;
     display:grid;
@@ -103,7 +103,7 @@ section{
 .project-card{
     display:grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    background-color: white;
+    background-color: rgb(234, 239, 255);
     padding: 0.6rem;
     border-radius: 0.5rem;
 }
@@ -156,6 +156,29 @@ section{
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+.portrait-image {
+    width: 180px;
+    height: 180px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    margin-bottom: 1rem;
+    border: 3px solid var(--color-accent);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 2;
+}
+
+.portrait-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
 @media (min-width:640px) {
@@ -243,6 +266,14 @@ section{
 
     .project-image {
         order: 0;
+    }
+
+    .portrait-image {
+        width: 180px;
+        height: 180px;
+        min-width: 180px;
+        min-height: 180px;
+        aspect-ratio: 1 / 1;
     }
 
     .project-card,
